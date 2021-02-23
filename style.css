@@ -1,0 +1,115 @@
+body {
+    font-family: 'Noto Sans', sans-serif;
+    background-color: rgb(190, 190, 190);
+}
+
+.mainContainer {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.aboutContainer {
+    max-width: 950px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+h1 {
+    color: rgb(52, 52, 195);
+    font-size: 70px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+h2 {
+    margin-top: 0;
+    color: rgb(52, 52, 195);
+    text-align: center;
+    font-size: 35px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+span {
+    font-weight: bold;
+}
+
+.leftContainer {
+    width: 250px;
+    height: 320px;
+    display: block;
+    text-align: center;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    padding: 15px;
+    margin: 0 auto 15px auto;
+}
+
+.leftContainer:hover {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.rightContainer {
+    /* display: block; */
+    width: 1100px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    padding: 15px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.rightContainer:hover {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.profileImg {
+    border-radius: 50%;
+}
+
+
+.mainSection {
+    width: 100%;
+    display: flex;
+    /* justify-content: space-between; */
+    padding: 15px 50px 15px 50px;
+}
+
+.mainTextContainer {
+    width: 700px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.sectionWidth {
+    width: 700px;
+    margin: 0 auto 15px auto;
+    font-size: 20px;
+    /* text-align: center; */
+}
+
+.projectItemContainer {
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto 15px auto;
+}
+
+.projectItem {
+    width: 210px;
+    box-shadow: 0 3px 6px rgba(255, 255, 255, 0.561),
+        0 3px 6px rgba(0, 0, 0, 0.23);
+    /* text-align: center; */
+    font-size: 12px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.projectItem:hover {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
