@@ -69,7 +69,8 @@ span {
 
 .rightContainer {
     /* display: block; */
-    width: 1100px;
+    max-width: 1100px;
+    min-width: 330px;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
     padding: 15px;
     margin: 0 auto;
@@ -89,6 +90,7 @@ span {
     width: 100%;
     display: flex;
     /* justify-content: space-between; */
+    flex-wrap: wrap;
     padding: 15px 50px 15px 50px;
 }
 
@@ -99,16 +101,19 @@ span {
 }
 
 .sectionWidth {
-    width: 700px;
+    max-width: 700px;
+    min-width: 350px;
     margin: 0 auto 15px auto;
     font-size: 20px;
     /* text-align: center; */
 }
 
 .projectItemContainer {
-    width: 1000px;
+    max-width: 1000px;
+    min-width: 330px;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     margin: 0 auto 15px auto;
 }
 
@@ -124,4 +129,35 @@ span {
 
 .projectItem:hover {
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+@media screen and (min-width: 359px) {
+    body {
+        background-color: rgb(190, 190, 190);
+    }
+
+    .mainSection {
+        padding: 0;
+    }
+
+    .rightContainer {
+        padding: 5px;
+    }
+
+    h1 {
+        font-size: 45px;
+    }
+
+    .photoContainer {
+        margin: 0 auto;
+        width: 200px;
+    }
+
+    .profileImg {
+        width: 200px;
+    }
+
+    .projectItem {
+        margin: 0 auto 15px auto;
+    }
 }
