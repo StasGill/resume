@@ -131,7 +131,9 @@ span {
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
 
-@media screen and (min-width: 359px) {
+
+
+@media screen and (max-width: 1065px) {
     body {
         background-color: rgb(190, 190, 190);
     }
@@ -160,4 +162,6 @@ span {
     .projectItem {
         margin: 0 auto 15px auto;
     }
+
+
 }
